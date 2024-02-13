@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+#about{
+    /* background-color:#efc; */
+    background: linear-gradient(blue, 10%, pink);
+    padding: 200px !important;
+}
+.about{
+    position: relative;
+}
+.about::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    left:170px;
+    top:50%;
+}
+.about::before {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    right:170px;
+    top: 50%;
+}
